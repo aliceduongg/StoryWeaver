@@ -30,7 +30,7 @@ app.use('/books', booksRoute);
 
 
 
-// Connect to MongoDB
+// Connected to MongoDB
 mongoose
     .connect(mongoDBURL)
     .then(() => {
